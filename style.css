@@ -29,10 +29,12 @@ ul li{
 
 body{
   background-image: url("images/background3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-repeat: no-repeat;
+    background-position: center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 }
 
 a:link{
@@ -52,3 +54,4 @@ a:active {
 }
 
 a { color: inherit; }   
+
